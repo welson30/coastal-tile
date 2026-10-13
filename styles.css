@@ -1,7 +1,5 @@
 /* Coastal Tile Installation — design tokens */
-/* Single deliberate light look */
 :root {
-  color-scheme: light;
   --navy: #1b2a35;      /* Gulf slate: primary dark */
   --navy-2: #24384a;
   --porcelain: #f5f5f2; /* page background, cool white */
@@ -45,7 +43,7 @@ p { margin: 0 0 1em; max-width: 64ch; }
 .btn-dark:hover { background: var(--navy-2); }
 
 /* Header */
-.site-header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50; background: var(--navy); color: var(--white); border-bottom: var(--grout) solid var(--brass); }
+.site-header { position: sticky; top: 0; z-index: 50; background: var(--navy); color: var(--white); border-bottom: var(--grout) solid var(--brass); }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; min-height: 72px; gap: 16px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
 .brand-mark { width: 34px; height: 34px; display: grid; grid-template-columns: 1fr 1fr; gap: 3px; background: var(--brass); padding: 3px; }
